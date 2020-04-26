@@ -58,14 +58,7 @@ responsesDir <- file.path("responses")
 # usernames that are admins
 adminUsers <- c("admin", "prof")
 
-# info for sharing this app on facebook/twitter
-share <- list(
-  title = "Mimicking a Google Form with a Shiny app",
-  url = "http://daattali.com/shiny/mimic-google-form/",
-  image = "http://daattali.com/shiny/img/mimic.png",
-  description = "Learn how to create a Shiny app that allows users to submit responses to a form. Submissions get stored permanently and can be loaded back into the app.",
-  twitter_user = "daattali"
-)
+ 
 
 appCSS <-
   ".mandatory_star { color: red; }
