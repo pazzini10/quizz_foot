@@ -1,3 +1,10 @@
+.Rprofile
+packrat/src/
+packrat/lib*/
+packrat/packrat.opts
+packrat/init.R
+responses
+
 # History files
 .Rhistory
 .Rapp.history
@@ -37,3 +44,4 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+packrat/lib*/
