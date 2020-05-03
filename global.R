@@ -3,16 +3,23 @@ setwd("/home/dflouriot/Documents/R/quizz_foot/")
 packrat::on()
 
 library(shiny)
+library(shinydashboard)
 library(digest) # digest() Create hash function digests for R objects
 library(shinyjs)
 library(DT)
 library(dplyr)
 
+load(file = "./solution/Bonne_reponses.RData")
+
 # which fields get saved 
-fieldsAll <- c("name", "favourite_team","q1","q2","q3")
+fieldsAll <- c("name", "favourite_team",
+"q1","q2","q3","q4","q5","q6", "q7","q8","q9",
+"q10","q11","q12","q13","q14","q15","q16", "q17","q18","q19",
+"q20","q21","q22","q23","q24","q25","q26", "q27","q28","q29",
+"q30" )
 
 # which fields are mandatory
-fieldsMandatory <- c("name", "favourite_team","q1","q2","q3")
+fieldsMandatory <- c("name", "favourite_team")
 
 # add an asterisk to an input label
 labelMandatory <- function(label) {

@@ -1,9 +1,10 @@
 .Rprofile
-packrat/src/
 packrat/lib*/
 packrat/packrat.opts
 packrat/init.R
-responses
+packrat/src/
+solution/
+responses/
 
 # History files
 .Rhistory
