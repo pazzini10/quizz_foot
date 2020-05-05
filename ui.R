@@ -12,8 +12,9 @@ dashboardPage(
                     
                       h5("En cette période de confinement, un petit questionnaire de foot pour se divertir en ces temps troublés."),
                       h5("La règle est simple : 30 questions. Un seul vainqueur. Un seul cadeau."),
+                      h5("Dès que vous avez soumis votre réponse, vous pouvez voir votre résultat et vous comparez aux autres !"),
                       h5("Merci de jouer le jeu et de ne pas tricher. Bonne chance à tous"),
-                      h5("Fait du jeu le 11 mai à 23h59")
+                      h5("Fin du jeu le 11 mai à 23h59 #coincidence ?")
                       ,
                       strong( 
                         span("Created by "),
