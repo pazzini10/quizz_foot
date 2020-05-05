@@ -2,9 +2,9 @@
 packrat/lib*/
 packrat/packrat.opts
 packrat/init.R
-packrat/src/
 solution/
 responses/
+packrat/src/
 
 # History files
 .Rhistory

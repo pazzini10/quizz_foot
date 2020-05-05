@@ -1,10 +1,10 @@
 packrat::off()
-setwd("/home/dflouriot/Documents/R/quizz_foot/")
+#setwd("/home/dflouriot/Documents/R/quizz_foot/")
 packrat::on()
 
 library(shiny)
 library(shinydashboard)
-library(digest) # digest() Create hash function digests for R objects
+#library(digest) # digest() Create hash function digests for R objects
 library(shinyjs)
 library(DT)
 library(dplyr)
