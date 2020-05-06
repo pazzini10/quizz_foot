@@ -82,7 +82,7 @@ function(input, output, session) {
       select(name,favourite_team,Taux_reussite,timestamp) %>%
       arrange(desc(Taux_reussite)) %>%
       mutate(Position=row_number()) %>%
-      select(Position,name,favourite_team,Taux_reussite,timestamp) %>%
+      select(Position,name,Taux_reussite,favourite_team,timestamp) %>%
       rename(Nom=name,"Equipe de Coeur"=favourite_team,"Taux de reussite"=Taux_reussite,Date=timestamp)
     DT::datatable(
       data
